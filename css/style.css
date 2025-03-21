@@ -138,3 +138,28 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+/* 文章链接样式 */
+.post-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.post-title a:hover {
+    color: #007bff;
+}
+
+/* 文章内容样式 */
+.post-content {
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.post-content h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.post-content p {
+    margin-bottom: 20px;
+}
